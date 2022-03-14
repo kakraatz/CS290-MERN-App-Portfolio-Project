@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(201, 207, 209);
+  color: chocolate;
+  margin: 0px;
+  padding: 0px;
+  border: solid;
+  box-sizing: border-box;
+  border-width: 1%;
+  border-color: chocolate;
+  min-height: 100vh;
+}
+
+header {
+  position: relative;
+  color: chocolate;
+  background-color: rgb(231, 231, 219);
+  border: rgb(41, 35, 35) solid 0.5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  font-size: 26px;
+  color: chocolate;
+  background-color: rgb(231, 231, 219);
+  margin: 13px;
+  padding: 5px;
+}
+
+.App-link {
+  border: rgb(41, 35, 35) solid 0.5px;
+}
+
+main {
+  color: rgb(41, 35, 35);
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 65px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 90px;
+  padding: 0px;
+}
+
+p {
+  font-size: 28px;
+  color: rgb(41, 35, 35);
+  margin-top: 10px;
+  margin-bottom: 26px;
+  padding: 0px;
+}
+
+table {
+  border: solid;
+  border-color: chocolate;
+  border-collapse: collapse;
+  background-color: rgb(214, 203, 184);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px
+}
+
+caption {
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color:  rgb(214, 203, 184);;
+  border: chocolate solid;
+  border-bottom: none;
+}
+
+tr:hover {background-color: #ddd;}
+
+tr th {
+  font-size: 16px;
+  margin: 0px;
+  padding: 15px;
+  border: 1px solid;
+  border-color: dimgray;
+  color: rgb(41, 35, 35);
+}
+
+tr td {
+  font-size: 14px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid;
+  border-color: dimgray;
+  color: rgb(41, 35, 35);
+}
+
+fieldset {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  border-color: chocolate;
+  width: 20%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(214, 203, 184);
+}
+
+legend {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(214, 203, 184);
+  border: chocolate solid;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  background-color: gainsboro;
+  margin: 5px;
+  padding: 7px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+  padding: 7px;
+}
+
+.siteFooter {
+  font-size: medium;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 12px;
+  background-color: rgb(231, 231, 219);
+  border: rgb(41, 35, 35) solid 0.5px;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 50px;
+  width: 50px;
+  pointer-events: none;
+  margin-top: 15px;
+}
